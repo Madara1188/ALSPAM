@@ -1,6 +1,6 @@
 {
-    "name": "™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍.",
-    "logo": "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
+    "name": "™°‌ 🫧 🇲 🇦 𝐀 𝐃 𝐀 𝐑 𝐀.",
+    "logo": "https://te.legra.ph/file/7c59e386554f60f9d5ae6.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/PRADHAN474/ALSPAM",
+    "repository": "https://github.com/Madara1188/ALSPAM",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
