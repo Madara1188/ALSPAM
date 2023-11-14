@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("💘 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚂 💘", data="help_back")
     ],
     [
-        Button.url("🌺 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🌺", "https://t.me/PRADHAN474"),
-        Button.url("🌸 𝚂𝚞𝚙𝚙𝚘𝚛𝚃 🌸", "https://t.me/BWANDARLOK")
+        Button.url("🌺 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🌺", "https://t.me/CODEX_MADARA"),
+        Button.url("🌸 𝚂𝚞𝚙𝚙𝚘𝚛𝚃 🌸", "https://t.me/TEAM_DST")
     ],
     [
-        Button.url("💖 𝙾𝚡𝚢𝙶𝚎𝙽 💖", "https://t.me/PRADHAN474")
+        Button.url("💖 𝙾𝚡𝚢𝙶𝚎𝙽 💖", "https://t.me/CODEX_MADARA")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **𝙼𝚢 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀**\n\n"
+        TEXT += f"» **𝙼𝚢 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 🫧 🇲 🇦 𝐀 𝐃 𝐀 𝐑 𝐀🥀**\n\n"
         TEXT += f"» **𝙱𝙾𝚃𝚂 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `M3.3`\n"
         TEXT += f"» **𝙿𝚈𝚃𝙷𝙸𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `3.11.3`\n"
         TEXT += f"» **𝙾𝚇𝚈𝙶𝙴𝙽 ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
+                    "https://te.legra.ph/file/7c59e386554f60f9d5ae6.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
